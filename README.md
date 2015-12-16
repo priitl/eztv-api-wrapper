@@ -33,12 +33,22 @@ dependencies{
 
 ```java
 /**
- * Search torrents by title.
+ * Get list of tv shows by page.
+ *
+ * @param apiUrl
+ * @param page
+ */
+List<TvShow> result = EztvApi.getTvShows("your_api_url", 1);
+```
+
+```java
+/**
+ * Get show details by imdb id.
  *
  * @param apiUrl
  * @param imdbId
  */
-EztvResult result = EztvApi.search("your_api_url", "your_imdb_id");
+TvShowDetails result = EztvApi.getShowDetails("your_api_url", "tt0944947");
 ```
 
 ## License
