@@ -48,7 +48,7 @@ List<TvShow> result = EztvApi.getTvShows("your_api_url", 1);
  * @param apiUrl
  * @param imdbId
  */
-TvShowDetails result = EztvApi.getShowDetails("your_api_url", "tt0944947");
+TvShowDetails result = EztvApi.getTvShowDetails("your_api_url", "tt0944947");
 ```
 
 ## License

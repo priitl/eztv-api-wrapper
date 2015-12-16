@@ -19,7 +19,7 @@ public class EztvApi {
     return torrentParser.parseShows(urlReader.read(apiUrl + "/shows/" + page));
   }
 
-  public static TvShowDetails getShowDetails(String apiUrl, String imdbId) {
+  public static TvShowDetails getTvShowDetails(String apiUrl, String imdbId) {
     return torrentParser.parseDetails(urlReader.read(apiUrl + "/show/" + imdbId));
   }
 
