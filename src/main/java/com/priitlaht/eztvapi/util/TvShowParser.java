@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * @author Priit Laht
  */
-public class TorrentParser {
+public class TvShowParser {
   private ObjectMapper objectMapper = new ObjectMapper();
 
   public List<TvShow> parseShows(String json) {
