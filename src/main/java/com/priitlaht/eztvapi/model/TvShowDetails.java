@@ -33,7 +33,6 @@ public class TvShowDetails extends TvShow {
   private String country;
   @JsonProperty(value = "rating")
   private Rating rating;
-
   @JsonProperty(value = "__v")
   private int version;
 }
